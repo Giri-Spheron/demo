@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right,black, #3C50FF); 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: animate 2s infinite ease alternate;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes animate{
+  to{
+    transform: translateY(20px);
+  }
+}
+
+
